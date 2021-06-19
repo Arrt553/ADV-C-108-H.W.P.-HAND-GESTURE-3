@@ -1,0 +1,58 @@
+#p1 :hover{
+  background-color:black;
+  color: white;
+  cursor: pointer;
+
+}
+#p2 :hover{
+  background-color:black;
+  color: white;
+  cursor: not-allowed;
+}
+body
+{
+  color: white;
+  background: #c0d3ff;
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  cursor: not-allowed;
+  font-size: 40px;
+}
+.emoji
+{
+  cursor: not-allowed;
+  font-size:48px;
+}
+.heading{
+  font-size: 40px;
+  letter-spacing: 5px;
+  border-radius: 15%;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+label{
+  font-family: sans-serif;
+  font-weight: 800;
+  color: blue;
+  background-color: gold;
+  padding: 5px;
+  border-radius: 15px;
+  border-width: 5px;
+  border-color: maroon;
+  border-style: groove;
+}
